@@ -47,9 +47,9 @@
     // minor_performance|major_performance|minor_outage|major_outage
     // or custom severities (if enabled in the StatusDashboard event configuration)
     var severityMapping = {
-        "1 - High": "High",    
-        "2 - Medium": "Medium",
-        "3 - Low": "Low"      
+        "1 - High": "major_outage",    
+        "2 - Medium": "minor_outage",
+        "3 - Low": "minor_performance"      
     };
 
     // Whether or not to include the longer description as well as the short description. If set to true
