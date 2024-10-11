@@ -12,14 +12,14 @@
     //
 
     // Set debug mode for troubleshooting
-    var debug = true;
+    var debug = false;
     
     // Define the StatusDashboard endpoint for the webhook
     var endpoint = ""; // Example: a183eb2c73db4e897002275aefc78826
     
     // Define the secret for signing. If signing is not used, leave this
     // value as an empty string.
-    var secret = "";
+    var secret = ""; // Example: 81b33c7140e14efeaa6f7061fe4be203
     
     // Mapping between ServiceNow "State" and StatusDashboard "Status"
     var statusMapping = {
